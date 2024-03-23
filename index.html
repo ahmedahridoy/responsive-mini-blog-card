@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Blog Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .container {
+            width: 350px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .image {
+            border-radius: 10px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .design {
+            font-family: "Sora", sans-serif;
+            font-size: 12px;
+            color: #883AE1;
+            background-color: #E6D6FC;
+            width: 70px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .content {
+            font-family: "Sora", sans-serif;
+        }
+
+        .title {
+            font-size: 1.125rem;
+            color: #20293A;
+        }
+
+        .description,
+        .author {
+            font-size: 0.875rem;
+            color: #6C727F;
+
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="cactus_img.jpg" alt="Blog image">
+        </div>
+        <h5 class="design">Design</h5>
+        <div class="content">
+            <h2 class="title">Embracing Minimalism</h2>
+            <p class="description">From minimalist sculptures to minimalist paintings, this blog will inspire you to
+                appreciate
+                the beauty that lies in simplicity.</p>
+            <hr>
+            <p class="author">Annie Spratt</p>
+        </div>
+    </div>
+</body>
+
+</html>
